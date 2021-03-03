@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <style>
+   .panel{
+     padding: 80px 20px;
+     border:1px solid red;
+     margin-bottom: 20px;
+   }
+ </style>
+</head>
+<body>
+
+<div class="container mt-3">
+  <div class="panel">
+
+  </div>
+  <div class="panel" data-aos="flip-left">
+
+  </div>
+  <div class="panel" data-aos="flip-right" >
+
+  </div>
+  <div class="panel" data-aos="slide-left">
+
+  </div>
+  <div class="panel"  data-aos="slide-right">
+
+  </div>
+  <div class="panel"  data-aos="fade-down-right">
+
+  </div>
+  <div class="panel"  data-aos="zoom-out-down">
+
+  </div>
+
+  <div class="panel" data-aos="flip-left">
+
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 0,
+      duration: 1000,
+      once: false,
+    });
+  </script>
+
+
+</body>
+</html>
